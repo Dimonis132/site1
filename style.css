@@ -1,0 +1,137 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(252, 252, 87);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 83, 83);
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: block;
+    left: 20px;
+}
+
+nav {
+    border-top: 5px solid rgb(255, 83, 83);
+    border-bottom: 5px solid rgb(255, 83, 83);
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.post-text {
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #133aac;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+}
+
+.full-image {
+    margin: 100px 0px 100px 0px;
+}
+
+.social {
+    display: block;
+    width: 30px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 30px 20px 45px;
+}
+
+.footer-text {
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.footer-text span {
+    color: #850AE5;
+    font-weight: bolder;
+}
+
+aside{
+    position: fixed;
+    right: 0;
+    top: 250px;
+    border: 1px solid rgb(241, 108, 219);
+    background-color: rgb(241, 108, 219);
+    height: 300px;
+    width: 100px;
+    border-radius: 10px;
+    padding: 7px;
+    bottom: 200px;
+}
+
+a:hover{
+    background-color: #acfa63;
+    color:darkorange;
+     box-shadow: 3px 5px 10px rgb(255, 38, 0);
+     background-image: linear-gradient( to right, white,gold )
+}
+
+.nav-link:hover{
+    font-size: 30px;
+    color: rgb(245, 37, 0)
+}
+
+.social:hover{
+    font-size: 20px;
+    color: darkgray;
+}
+
+.logo{
+    width: 100px;
+}
